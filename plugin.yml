@@ -5,5 +5,5 @@ author: hank9999
 
 permissions:
   ChatForward.Admin:
-    description: allow you to control hankbot
+    description: show your permissions in postdata
     default: op
