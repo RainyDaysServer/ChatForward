@@ -1,0 +1,9 @@
+name: ChatForward
+main: com.github.hank9999.ChatForward.ChatForward
+version: 1.1
+author: hank9999
+
+permissions:
+  ChatForward.Admin:
+    description: allow you to control hankbot
+    default: op
