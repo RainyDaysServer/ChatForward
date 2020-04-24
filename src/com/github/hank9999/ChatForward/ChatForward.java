@@ -18,7 +18,7 @@ public final class ChatForward extends JavaPlugin {
     public void onEnable() {
         plugin = this;
         getLogger().info(ChatColor.BLUE + "消息转发插件已启用");
-        getLogger().info(ChatColor.GOLD + "版本v1.1");
+        getLogger().info(ChatColor.GOLD + "版本v1.2");
         getServer().getPluginManager().registerEvents(new ChatListen(), this);
     }
 

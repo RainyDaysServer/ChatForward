@@ -4,6 +4,7 @@ import com.github.hank9999.ChatForward.ChatForward;
 import org.bukkit.entity.Player;
 import org.bukkit.ChatColor;
 import org.bukkit.event.EventHandler;
+import org.bukkit.event.EventPriority;
 import org.bukkit.event.Listener;
 import org.bukkit.event.player.AsyncPlayerChatEvent;
 
@@ -16,7 +17,7 @@ import java.net.URLEncoder;
 
 public class ChatListen implements Listener {
     //监听用户名 和 用户消息内容
-    @EventHandler
+    @EventHandler(priority = EventPriority.MONITOR)
     public void onChat(AsyncPlayerChatEvent event) {
         Player player = event.getPlayer();
         if (!event.isCancelled()) {  // 判断是否被取消
