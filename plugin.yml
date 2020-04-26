@@ -9,5 +9,5 @@ permissions:
     default: op
 
 commands:
-  chatforword:
+  chatforward:
     description: ChatForward Main Command

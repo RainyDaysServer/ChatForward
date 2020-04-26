@@ -11,19 +11,19 @@ import java.util.stream.Collectors;
 
 public class ChatForward_Commands implements TabExecutor {
     public boolean onCommand(CommandSender commandSender, Command command, String s, String[] strings) {
-        if (command.getName().equalsIgnoreCase("chatforword")) {
+        if (command.getName().equalsIgnoreCase("chatforward")) {
             if (commandSender.hasPermission("ChatForward.Admin")) {
                 if (strings.length == 0) {
-                    commandSender.sendMessage(Lib.color_translate("&2[&eChatForward&2] &rUse &7/chatforword help &rto get help"));
+                    commandSender.sendMessage(Lib.color_translate("&2[&eChatForward&2] &rUse &7/chatforward help &rto get help"));
                     return true;
                 }
                 if (strings[0].equalsIgnoreCase("help")) {
-                    commandSender.sendMessage(Lib.color_translate("&2[&eChatForward&2] &rUse &7/chatforword help &rto get help"));
-                    commandSender.sendMessage(Lib.color_translate("&2[&eChatForward&2] &rUse &7/chatforword reload &rto reload"));
-                    commandSender.sendMessage(Lib.color_translate("&2[&eChatForward&2] &rUse &7/chatforword on &rto on"));
-                    commandSender.sendMessage(Lib.color_translate("&2[&eChatForward&2] &rUse &7/chatforword off &rto off"));
-                    commandSender.sendMessage(Lib.color_translate("&2[&eChatForward&2] &rUse &7/chatforword url &rto get url"));
-                    commandSender.sendMessage(Lib.color_translate("&2[&eChatForward&2] &rUse &7/chatforword url <url> &rto config url"));
+                    commandSender.sendMessage(Lib.color_translate("&2[&eChatForward&2] &rUse &7/chatforward help &rto get help"));
+                    commandSender.sendMessage(Lib.color_translate("&2[&eChatForward&2] &rUse &7/chatforward reload &rto reload"));
+                    commandSender.sendMessage(Lib.color_translate("&2[&eChatForward&2] &rUse &7/chatforward on &rto on"));
+                    commandSender.sendMessage(Lib.color_translate("&2[&eChatForward&2] &rUse &7/chatforward off &rto off"));
+                    commandSender.sendMessage(Lib.color_translate("&2[&eChatForward&2] &rUse &7/chatforward url &rto get url"));
+                    commandSender.sendMessage(Lib.color_translate("&2[&eChatForward&2] &rUse &7/chatforward url <url> &rto config url"));
                     return true;
                 }
                 if (strings[0].equalsIgnoreCase("reload")) {

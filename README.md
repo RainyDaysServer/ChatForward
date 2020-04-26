@@ -7,12 +7,12 @@ config.yml
  - enable
  - url
 # 指令
- - chatforword help
- - chatforword reload
- - chatforword on
- - chatforword off
- - chatforword url
- - chatforword url \<url\>
+ - chatforward help
+ - chatforward reload
+ - chatforward on
+ - chatforward off
+ - chatforward url
+ - chatforward url \<url\>
 ## 权限节点
  - ChatForward.Admin  
    - 指令需要该权限  
