@@ -6,11 +6,19 @@
 config.yml  
  - enable
  - url
+# 指令
+ - chatforword help
+ - chatforword reload
+ - chatforword on
+ - chatforword off
+ - chatforword url
+ - chatforword url \<url\>
 ## 权限节点
  - ChatForward.Admin  
-   拥有该权限节点的玩家在POST数据中Perm将会传递ADMIN  
-   无该权限节点玩家在POST数据中Perm将会传递USUAL  
-   OP默认拥有此权限  
+   - 指令需要该权限  
+   - 拥有该权限节点的玩家在POST数据中Perm将会传递ADMIN  
+   - 无该权限节点玩家在POST数据中Perm将会传递USUAL  
+   - OP默认拥有此权限  
 ## Web地址
 在config.yml中修改url配置  
 默认: http://127.0.0.1:8081/post  
