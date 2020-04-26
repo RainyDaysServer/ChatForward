@@ -1,9 +1,13 @@
 name: ChatForward
 main: com.github.hank9999.ChatForward.ChatForward
-version: 1.2
+version: 1.3
 author: hank9999
 
 permissions:
   ChatForward.Admin:
-    description: show your permissions in postdata
+    description: ChatForward Admin Perm
     default: op
+
+commands:
+  chatforword:
+    description: ChatForward Main Command

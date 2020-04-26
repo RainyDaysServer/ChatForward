@@ -3,16 +3,17 @@
 ## 使用方法
 下载最新的Releases版本，扔进Plugins文件夹，使用plugman加载或重启服务器  
 ## 配置文件
-暂时空置
+config.yml  
+ - enable
+ - url
 ## 权限节点
  - ChatForward.Admin  
    拥有该权限节点的玩家在POST数据中Perm将会传递ADMIN  
    无该权限节点玩家在POST数据中Perm将会传递USUAL  
-   OP默认拥有此权限
+   OP默认拥有此权限  
 ## Web地址
-由于目前暂未写配置文件故地址暂时写死  
-```$xslt
-http://127.0.0.1:8081/post
+在config.yml中修改url配置  
+默认: http://127.0.0.1:8081/post  
 ```
 ## POST数据格式
 text数据会经过URL编码

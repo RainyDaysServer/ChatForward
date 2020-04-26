@@ -6,10 +6,16 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2e5746f1-e1f2-4758-af47-188e2d1e14e5" name="默认更改列表" comment="">
-      <change afterPath="$PROJECT_DIR$/plugin.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/github/hank9999/ChatForward/ChatForward.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/github/hank9999/ChatForward/ChatListen.java" afterDir="false" />
+    <list default="true" id="2e5746f1-e1f2-4758-af47-188e2d1e14e5" name="默认更改列表" comment="add config">
+      <change afterPath="$PROJECT_DIR$/config.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/github/hank9999/ChatForward/ChatForward_Commands.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/github/hank9999/ChatForward/Lib.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/ChatForward.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/ChatForward.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin.yml" beforeDir="false" afterPath="$PROJECT_DIR$/plugin.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/github/hank9999/ChatForward/ChatForward.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/github/hank9999/ChatForward/ChatForward.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/github/hank9999/ChatForward/ChatListen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/github/hank9999/ChatForward/ChatListen.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,13 +46,16 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/plugin.yml" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/config.yml" />
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="configurable.group.language" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.github.hank9999.ChatForward" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Project\MC\ChatForward" />
     </key>
@@ -62,20 +71,89 @@
       <option name="presentableId" value="Default" />
       <updated>1586565024519</updated>
     </task>
+    <task id="LOCAL-00001" summary="v1.1 Init">
+      <created>1586565964149</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1586565964149</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Update README.md">
+      <created>1586566767330</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1586566767330</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Fix description in plugin.yml">
+      <created>1586567187952</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1586567187952</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Fix priority bump 1.2">
+      <created>1587740193280</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1587740193280</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="v1.1 Init" />
+    <MESSAGE value="Update README.md" />
+    <MESSAGE value="Fix description in plugin.yml" />
+    <MESSAGE value="Fix priority bump 1.2" />
+    <MESSAGE value="add config" />
+    <option name="LAST_COMMIT_MESSAGE" value="add config" />
   </component>
   <component name="WindowStateProjectService">
     <state x="552" y="238" key="#项目结构" timestamp="1586565037369">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="552" y="238" key="#项目结构/0.0.1920.1040@0.0.1920.1040" timestamp="1586565037369" />
-    <state x="740" y="334" key="FileChooserDialogImpl" timestamp="1586565749050">
+    <state x="322" y="59" width="1093" height="813" key="CommitChangelistDialog2" timestamp="1587865266736">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="334" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1586565749050" />
-    <state x="123" y="95" key="SettingsEditor" timestamp="1586565769305">
+    <state x="322" y="59" width="1093" height="813" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1587865266736" />
+    <state x="166" y="86" key="DiffContextDialog" timestamp="1587864847289">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="123" y="95" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1586565769305" />
+    <state x="166" y="86" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1587864847289" />
+    <state x="740" y="334" key="FileChooserDialogImpl" timestamp="1587863867652">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="334" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1587863867652" />
+    <state x="734" y="230" key="RollbackChangesDialog" timestamp="1586567034387">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="734" y="230" key="RollbackChangesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1586567034387" />
+    <state x="123" y="95" key="SettingsEditor" timestamp="1587863868625">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="123" y="95" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1587863868625" />
+    <state x="534" y="253" key="Vcs.Push.Dialog.v2" timestamp="1587740201053">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="534" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1587740201053" />
+    <state x="744" y="437" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1587865250824">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="744" y="437" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1587865250824" />
+    <state x="159" y="132" key="new project wizard" timestamp="1587737613772">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="159" y="132" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1587737613772" />
+    <state x="607" y="314" key="run.anything.popup" timestamp="1587862901629">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="607" y="314" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1587862901629" />
+    <state x="605" y="229" width="672" height="678" key="search.everywhere.popup" timestamp="1586566492863">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="605" y="229" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1586566492863" />
   </component>
 </project>
