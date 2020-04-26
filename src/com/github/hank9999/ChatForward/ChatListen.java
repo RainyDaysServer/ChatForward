@@ -55,7 +55,7 @@ public class ChatListen implements Listener {
     private void sendPost(String urlParameters) throws Exception {
 
         String url = ChatForward.plugin.getConfig().getString("url");
-        if (url.equalsIgnoreCase("")) {
+        if (url == null) {
             return;
         }
         URL obj = new URL(url);
