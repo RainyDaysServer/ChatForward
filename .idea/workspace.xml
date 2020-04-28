@@ -6,9 +6,9 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2e5746f1-e1f2-4758-af47-188e2d1e14e5" name="默认更改列表" comment="fix a problem">
+    <list default="true" id="2e5746f1-e1f2-4758-af47-188e2d1e14e5" name="默认更改列表" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/github/hank9999/ChatForward/ChatListen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/github/hank9999/ChatForward/ChatListen.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -106,7 +106,21 @@
       <option name="project" value="LOCAL" />
       <updated>1587865600927</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="update readme">
+      <created>1587865821353</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1587865821353</updated>
+    </task>
+    <task id="LOCAL-00008" summary="fix wrong command">
+      <created>1587866593434</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1587866593434</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -116,17 +130,19 @@
     <MESSAGE value="Fix priority bump 1.2" />
     <MESSAGE value="add config" />
     <MESSAGE value="fix a problem" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix a problem" />
+    <MESSAGE value="update readme" />
+    <MESSAGE value="fix wrong command" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix wrong command" />
   </component>
   <component name="WindowStateProjectService">
     <state x="552" y="238" key="#项目结构" timestamp="1586565037369">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="552" y="238" key="#项目结构/0.0.1920.1040@0.0.1920.1040" timestamp="1586565037369" />
-    <state x="322" y="59" width="1093" height="813" key="CommitChangelistDialog2" timestamp="1587865612164">
+    <state x="322" y="59" width="1093" height="813" key="CommitChangelistDialog2" timestamp="1587866592720">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="322" y="59" width="1093" height="813" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1587865612164" />
+    <state x="322" y="59" width="1093" height="813" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1587866592720" />
     <state x="166" y="86" key="DiffContextDialog" timestamp="1587864847289">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -143,14 +159,18 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="123" y="95" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1587863868625" />
-    <state x="534" y="253" key="Vcs.Push.Dialog.v2" timestamp="1587865618365">
+    <state x="534" y="253" key="Vcs.Push.Dialog.v2" timestamp="1587866631575">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="534" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1587865618365" />
+    <state x="534" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1587866631575" />
     <state x="744" y="437" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1587865250824">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="744" y="437" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1587865250824" />
+    <state x="636" y="311" key="git4idea.merge.GitPullDialog" timestamp="1587865831227">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="636" y="311" key="git4idea.merge.GitPullDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1587865831227" />
     <state x="159" y="132" key="new project wizard" timestamp="1587737613772">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

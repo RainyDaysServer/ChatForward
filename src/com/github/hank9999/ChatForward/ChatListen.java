@@ -7,6 +7,7 @@ import org.bukkit.event.EventHandler;
 import org.bukkit.event.EventPriority;
 import org.bukkit.event.Listener;
 import org.bukkit.event.player.AsyncPlayerChatEvent;
+import org.bukkit.scheduler.BukkitRunnable;
 
 import java.io.BufferedReader;
 import java.io.DataOutputStream;
@@ -38,8 +39,7 @@ public class ChatListen implements Listener {
                     text = "";
                 }
                 String params = "name=" + username + "&perm=" + perm + "&text=" + text;  //拼接params
-                ChatForward.plugin.getServer().getScheduler().scheduleAsyncDelayedTask(ChatForward.plugin, new Runnable() {
-                    @Override
+                (new BukkitRunnable() {
                     public void run() {
                         try {
                             sendPost(params);  //发送消息
@@ -47,7 +47,7 @@ public class ChatListen implements Listener {
                             ChatForward.plugin.getLogger().warning(ChatColor.RED + "Error: " + e);
                         }
                     }
-                }, 0L);
+                }).runTaskLaterAsynchronously(ChatForward.plugin, 0L);
             }
         }
     }
