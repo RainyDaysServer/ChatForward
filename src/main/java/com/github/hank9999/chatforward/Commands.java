@@ -75,7 +75,7 @@ public class Commands implements TabExecutor {
         return true;
     }
 
-    private final String[] Commands = {"help", "reload", "on", "off", "url"};
+    private final String[] Commands = {"help", "reload", "on", "off", "url", "server"};
     public List<String> onTabComplete(CommandSender sender, Command command, String alias, String[] args) {
         if (args.length > 1) {
             return Collections.emptyList();
