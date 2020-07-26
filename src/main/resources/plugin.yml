@@ -5,3 +5,12 @@ api-version: 1.13
 authors: [hank9999]
 description: Forward Minecraft chat messages over HTTP
 website: https://github.com/hank9999/ChatForward
+
+permissions:
+  ChatForward.Admin:
+    description: ChatForward Admin Perm
+    default: op
+
+commands:
+  chatforward:
+    description: ChatForward Main Command
