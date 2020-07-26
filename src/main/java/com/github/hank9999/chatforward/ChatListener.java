@@ -27,7 +27,11 @@ public class ChatListener implements Listener {
                     perm = "USUAL";
                 }
 
-                String params = "name=" + Libs.urlEncoder(username) + "&perm=" + perm + "&text=" + Libs.urlEncoder(text);  //拼接params
+                //拼接params
+                String params = "name=" + Libs.urlEncoder(username) +
+                        "&perm=" + perm +
+                        "&text=" + Libs.urlEncoder(text) +
+                        "&server=" + Libs.urlEncoder(Config.server);
 
                 (new BukkitRunnable() {
                     public void run() {
