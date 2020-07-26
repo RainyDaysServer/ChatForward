@@ -18,7 +18,7 @@ public class Libs
     public static void sendPost(String urlParameters) {
 
         try {
-            String url = ChatForward.plugin.getConfig().getString("url");
+            String url = Config.url;
             if (url == null) {
                 return;
             }
