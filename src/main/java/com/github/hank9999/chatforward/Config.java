@@ -2,6 +2,7 @@ package com.github.hank9999.chatforward;
 
 public class Config {
     public static Boolean enable = true;
+    public static Boolean showResult = false;
     public static String url = "http://127.0.0.1:8081/post";
     public static String server = "XXX";
 
@@ -32,6 +33,7 @@ public class Config {
 
     public static void setValue() {
         enable = ChatForward.plugin.getConfig().getBoolean("enable");
+        showResult = ChatForward.plugin.getConfig().getBoolean("showResult");
         url = ChatForward.plugin.getConfig().getString("url");
         server = ChatForward.plugin.getConfig().getString("server");
 

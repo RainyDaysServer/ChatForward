@@ -50,7 +50,9 @@ public class Libs
             in.close();
 
             //打印结果
-            ChatForward.plugin.getLogger().info("ReSend Chat: " + urlParameters + " Server return: " + responseCode + " " + response.toString());
+            if (Config.showResult) {
+                ChatForward.plugin.getLogger().info("ReSend Chat: " + urlParameters + " Server return: " + responseCode + " " + response.toString());
+            }
         } catch (Exception e) {
             e.printStackTrace();
         }
