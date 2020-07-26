@@ -1,4 +1,4 @@
-package com.github.hank9999.ChatForward;
+package com.github.hank9999.chatforward;
 
 import org.bukkit.plugin.java.JavaPlugin;
 import org.bukkit.ChatColor;

@@ -1,0 +1,7 @@
+name: ChatForward
+version: ${project.version}
+main: com.github.hank9999.chatforward.ChatForward
+api-version: 1.13
+authors: [hank9999]
+description: Forward Minecraft chat messages over HTTP
+website: https://github.com/hank9999/ChatForward
