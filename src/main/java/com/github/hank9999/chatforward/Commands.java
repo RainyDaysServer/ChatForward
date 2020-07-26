@@ -25,6 +25,8 @@ public class Commands implements TabExecutor {
                     commandSender.sendMessage(Libs.color("&2[&eChatForward&2] &rUse &7/chatforward off &rto off"));
                     commandSender.sendMessage(Libs.color("&2[&eChatForward&2] &rUse &7/chatforward url &rto get url"));
                     commandSender.sendMessage(Libs.color("&2[&eChatForward&2] &rUse &7/chatforward url <url> &rto config url"));
+                    commandSender.sendMessage(Libs.color("&2[&eChatForward&2] &rUse &7/chatforward server &rto get server name"));
+                    commandSender.sendMessage(Libs.color("&2[&eChatForward&2] &rUse &7/chatforward server <ServerName> &rto config server name"));
                     return true;
                 }
                 if (strings[0].equalsIgnoreCase("reload")) {
